@@ -52,7 +52,7 @@ TEMPLATE = """<!doctype html>
     <h2>The counter</h2>
     <!-- products:{key} -->
     <p class="status"><span class="dot" aria-hidden="true"></span>{status}</p>
-    <p>Our goods are sold through Gumroad — simple checkout, instant downloads, small batches at fair prices.</p>
+    {counter}
     <!-- /products:{key} -->
   </section>
   <section class="panel">
@@ -74,7 +74,7 @@ CARD = """      <li class="card{featured}" style="--a:{accent}">
         <div class="inner">
           <svg class="mark" viewBox="0 0 56 56" fill="none" stroke="{accent}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">{mark}</svg>
           <div>
-            <div class="no">{no} — {room}</div>
+            <div class="no">{no} — {room}{open_note}</div>
             <h3><a class="enterless" href="brands/{key}/" style="color:inherit;text-decoration:none">{name}</a></h3>
             <div class="tag">{tagline}</div>
             <p>{makes}</p>
@@ -102,6 +102,7 @@ def inject_index(brands: list) -> None:
             name=html.escape(b["name"]),
             tagline=html.escape(b["tagline"]),
             makes=html.escape(b["makes"]),
+            open_note=' · <span style="color:var(--a)">Open now</span>' if b.get("live") else "",
         )
         for b in brands
     )
@@ -121,7 +122,16 @@ def build() -> int:
             f'<a href="../{o["key"]}/">{html.escape(o["name"])}</a>'
             for o in brands if o["key"] != b["key"]
         )
+        if b.get("store"):
+            counter = (
+                f'<p>The shelves are stocked and the fire is lit.</p>'
+                f'<p><a class="enter" href="{b["store"]}">Browse the store on Gumroad</a></p>'
+            )
+        else:
+            counter = ("<p>Our goods are sold through Gumroad — simple checkout, "
+                       "instant downloads, small batches at fair prices.</p>")
         page = TEMPLATE.format(
+            counter=counter,
             key=b["key"],
             name=html.escape(b["name"]),
             room=html.escape(b["room"]),

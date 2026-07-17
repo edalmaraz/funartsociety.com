@@ -1,6 +1,19 @@
 {
   "brands": [
     {
+      "key": "pixelforge",
+      "name": "Pixel Forge",
+      "room": "The Forge",
+      "tagline": "Game-ready pixel art, struck nightly.",
+      "makes": "Sprite packs, tilesets, FX, and game UI kits — crisp pixel art for game makers, forged in small batches and sold piece by piece.",
+      "accent": "#ff9f4a",
+      "status": "Open now.",
+      "featured": true,
+      "live": true,
+      "store": "https://pixelforge7.gumroad.com",
+      "mark": "<path d='M8 22h32c6 0 9-2 12-7'/><path d='M20 22l4 11h8l4-11'/><path d='M24 33l-5 9M32 33l5 9M14 42h28'/><rect x='42' y='28' width='5' height='5'/><rect x='10' y='9' width='5' height='5'/><rect x='25' y='4' width='5' height='5'/>"
+    },
+    {
       "key": "coppergate",
       "name": "Coppergate Editions",
       "room": "The Press",
@@ -8,7 +21,6 @@
       "makes": "Hand-finished ebook editions of public-domain classics — carefully typeset, proofed, and packaged for modern readers.",
       "accent": "#eab676",
       "status": "First titles arriving soon.",
-      "featured": true,
       "mark": "<path d='M10 48V16l9-7v39'/><path d='M25 48V11h10v37'/><path d='M40 48V18l8-8v38'/>"
     },
     {
