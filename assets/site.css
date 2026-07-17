@@ -57,6 +57,12 @@ h1, h2 { font-family: var(--serif); font-weight: 560; line-height: 1.08; letter-
 /* hero */
 .hero { padding: 4.2rem 0 3rem; text-align: center; border-bottom: 1px solid var(--hair); }
 .seal { width: 76px; height: 76px; margin: 0 auto 1.2rem; display: block; }
+img.seal {
+  width: 148px; height: auto; margin-bottom: 1.4rem;
+  filter: drop-shadow(0 6px 28px rgba(201, 133, 69, 0.28));
+}
+img.seal-sm { width: 96px; height: auto; margin: 0 auto 1.1rem; display: block;
+  filter: drop-shadow(0 4px 18px rgba(201, 133, 69, 0.25)); }
 .kicker { color: var(--copper); }
 .hero h1 {
   font-size: clamp(2.4rem, 5.6vw, 4.1rem);

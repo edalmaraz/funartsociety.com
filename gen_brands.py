@@ -28,7 +28,8 @@ TEMPLATE = """<!doctype html>
 <meta name="description" content="{name}, {no_attr} of the Fun Art Society: {tagline_attr}">
 {fonts}
 <link rel="stylesheet" href="../../assets/site.css">
-<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
 <style>:root {{ --a: {accent}; }}</style>
 </head>
 <body>
