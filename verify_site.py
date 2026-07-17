@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -149,6 +150,17 @@ def main() -> int:
     cname = ROOT / "CNAME"
     if cname.exists() and cname.read_text(encoding="utf-8").strip() != EXPECTED_CNAME:
         errors.append(f"CNAME: contents != '{EXPECTED_CNAME}'")
+
+    # tracked-files contract: tool debris must never reach the public repo
+    try:
+        tracked = subprocess.run(
+            ["git", "ls-files"], cwd=ROOT, capture_output=True, text=True, check=True
+        ).stdout.splitlines()
+        for path in tracked:
+            if path.startswith((".a5c/", "docs/design-mockups/")) or path.endswith(".log"):
+                errors.append(f"tracked file must not ship: {path}")
+    except (OSError, subprocess.CalledProcessError):
+        pass  # not a git checkout; skip
 
     if errors:
         print(f"GATE: FAIL ({len(errors)})")
