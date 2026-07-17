@@ -1,0 +1,86 @@
+{
+  "brands": [
+    {
+      "key": "coppergate",
+      "name": "Coppergate Editions",
+      "tagline": "Classic literature, beautifully re-set.",
+      "makes": "Hand-finished ebook editions of public-domain classics — carefully typeset, proofed, and packaged for modern readers.",
+      "glyph": "📚",
+      "accent": "#b46a3c",
+      "status": "First titles arriving soon.",
+      "featured": true
+    },
+    {
+      "key": "sphinx",
+      "name": "Grinning Sphinx",
+      "tagline": "Puzzles with a wink.",
+      "makes": "Original puzzle books — word searches, logic grids, and brain-benders designed for pencil-and-paper fun.",
+      "glyph": "🧩",
+      "accent": "#7c5cbf",
+      "status": "Opening soon."
+    },
+    {
+      "key": "gridledger",
+      "name": "Grid & Ledger",
+      "tagline": "Order from chaos.",
+      "makes": "Printable planners, trackers, and organizers for people who think on paper.",
+      "glyph": "📐",
+      "accent": "#4a6fa5",
+      "status": "Opening soon."
+    },
+    {
+      "key": "glyphvault",
+      "name": "Glyph Vault",
+      "tagline": "Icons with intent.",
+      "makes": "SVG icon sets and vector packs, drawn clean and shipped ready for your next project.",
+      "glyph": "✒️",
+      "accent": "#2f4670",
+      "status": "Opening soon."
+    },
+    {
+      "key": "templateworks",
+      "name": "Template Works",
+      "tagline": "Spreadsheets that spark joy.",
+      "makes": "Templates for spreadsheets and Notion that turn busywork into a filled-in blank.",
+      "glyph": "🧮",
+      "accent": "#0f8b8d",
+      "status": "Opening soon."
+    },
+    {
+      "key": "motifmill",
+      "name": "Motif Mill",
+      "tagline": "Patterns on repeat.",
+      "makes": "Seamless textures and repeating patterns for designers, crafters, and games.",
+      "glyph": "🌀",
+      "accent": "#c2417f",
+      "status": "Opening soon."
+    },
+    {
+      "key": "blipwave",
+      "name": "Blipwave Audio",
+      "tagline": "Sounds from another cartridge.",
+      "makes": "Chiptune music loops and game-ready sound effects with retro heart.",
+      "glyph": "👾",
+      "accent": "#3fae5a",
+      "status": "Opening soon."
+    },
+    {
+      "key": "fieldguide",
+      "name": "Field Guide Press",
+      "tagline": "Know the world around you.",
+      "makes": "Original illustrated field guides — practical, friendly, and made to be used.",
+      "glyph": "🧭",
+      "accent": "#3e7c4f",
+      "status": "Opening soon."
+    },
+    {
+      "key": "crookedcrayon",
+      "name": "Crooked Crayon",
+      "tagline": "Perfectly imperfect.",
+      "makes": "Playful art for print-on-demand tees, mugs, and posters.",
+      "glyph": "🖍️",
+      "accent": "#d94f30",
+      "status": "Opening soon."
+    }
+  ]
+}
