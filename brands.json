@@ -3,84 +3,93 @@
     {
       "key": "coppergate",
       "name": "Coppergate Editions",
+      "room": "The Press",
       "tagline": "Classic literature, beautifully re-set.",
       "makes": "Hand-finished ebook editions of public-domain classics — carefully typeset, proofed, and packaged for modern readers.",
-      "glyph": "📚",
-      "accent": "#b46a3c",
+      "accent": "#eab676",
       "status": "First titles arriving soon.",
-      "featured": true
+      "featured": true,
+      "mark": "<path d='M10 48V16l9-7v39'/><path d='M25 48V11h10v37'/><path d='M40 48V18l8-8v38'/>"
     },
     {
       "key": "sphinx",
       "name": "Grinning Sphinx",
+      "room": "The Puzzle Room",
       "tagline": "Puzzles with a wink.",
       "makes": "Original puzzle books — word searches, logic grids, and brain-benders designed for pencil-and-paper fun.",
-      "glyph": "🧩",
-      "accent": "#7c5cbf",
-      "status": "Opening soon."
+      "accent": "#c9b2f2",
+      "status": "Opening soon.",
+      "mark": "<path d='M8 8h40v40H8z'/><path d='M16 48V16h24v24H24V24h8v8'/>"
     },
     {
       "key": "gridledger",
       "name": "Grid & Ledger",
+      "room": "The Drafting Desk",
       "tagline": "Order from chaos.",
       "makes": "Printable planners, trackers, and organizers for people who think on paper.",
-      "glyph": "📐",
-      "accent": "#4a6fa5",
-      "status": "Opening soon."
+      "accent": "#9dc1ef",
+      "status": "Opening soon.",
+      "mark": "<path d='M8 12h40M8 24h40M8 36h40M8 48h40M18 12v36M38 12v36'/><path d='M22 28l4 5 8-9' stroke-width='3.4'/>"
     },
     {
       "key": "glyphvault",
       "name": "Glyph Vault",
+      "room": "The Vault",
       "tagline": "Icons with intent.",
       "makes": "SVG icon sets and vector packs, drawn clean and shipped ready for your next project.",
-      "glyph": "✒️",
-      "accent": "#2f4670",
-      "status": "Opening soon."
+      "accent": "#cdd3e0",
+      "status": "Opening soon.",
+      "mark": "<path d='M28 6 50 24 28 50 6 24Z'/><path d='M6 24h44'/><path d='M28 6 18 24l10 26'/><path d='M28 6l10 18-10 26'/>"
     },
     {
       "key": "templateworks",
       "name": "Template Works",
+      "room": "The Workshop",
       "tagline": "Spreadsheets that spark joy.",
       "makes": "Templates for spreadsheets and Notion that turn busywork into a filled-in blank.",
-      "glyph": "🧮",
-      "accent": "#0f8b8d",
-      "status": "Opening soon."
+      "accent": "#79d2c5",
+      "status": "Opening soon.",
+      "mark": "<path d='M8 10h40v36H8z'/><path d='M8 22h40M8 34h40M24 10v36M40 10v36'/><path d='M12 16h8' stroke-width='3.4'/>"
     },
     {
       "key": "motifmill",
       "name": "Motif Mill",
+      "room": "The Mill",
       "tagline": "Patterns on repeat.",
       "makes": "Seamless textures and repeating patterns for designers, crafters, and games.",
-      "glyph": "🌀",
-      "accent": "#c2417f",
-      "status": "Opening soon."
+      "accent": "#f0a6ce",
+      "status": "Opening soon.",
+      "mark": "<path d='M4 20c6-9 10 9 16 0s10 9 16 0 10 9 16 0'/><path d='M4 38c6-9 10 9 16 0s10 9 16 0 10 9 16 0'/>"
     },
     {
       "key": "blipwave",
       "name": "Blipwave Audio",
+      "room": "The Arcade",
       "tagline": "Sounds from another cartridge.",
       "makes": "Chiptune music loops and game-ready sound effects with retro heart.",
-      "glyph": "👾",
-      "accent": "#3fae5a",
-      "status": "Opening soon."
+      "accent": "#7fdc9b",
+      "status": "Opening soon.",
+      "mark": "<path d='M6 36h8V20h10v24h10V14h8v22h8'/>"
     },
     {
       "key": "fieldguide",
       "name": "Field Guide Press",
+      "room": "The Field Office",
       "tagline": "Know the world around you.",
       "makes": "Original illustrated field guides — practical, friendly, and made to be used.",
-      "glyph": "🧭",
-      "accent": "#3e7c4f",
-      "status": "Opening soon."
+      "accent": "#c3cf9a",
+      "status": "Opening soon.",
+      "mark": "<path d='M28 6C15 10 8 21 10 33s11 19 18 17 20-9 18-23S41 4 28 6Z'/><path d='M28 15c-8 3-12 9-10 17s7 11 10 10 12-5 10-15-3-14-10-12Z'/><path d='M28 24v8'/>"
     },
     {
       "key": "crookedcrayon",
       "name": "Crooked Crayon",
+      "room": "The Crayon Box",
       "tagline": "Perfectly imperfect.",
       "makes": "Playful art for print-on-demand tees, mugs, and posters.",
-      "glyph": "🖍️",
-      "accent": "#d94f30",
-      "status": "Opening soon."
+      "accent": "#f29a76",
+      "status": "Opening soon.",
+      "mark": "<path d='M16 46l5-18 9-16 7 4-9 16-7 16z'/><path d='M21 28l7 4'/><path d='M32 44c5-4 9-2 14-7'/>"
     }
   ]
 }

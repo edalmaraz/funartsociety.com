@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+docs/design-mockups/
+.a5c/

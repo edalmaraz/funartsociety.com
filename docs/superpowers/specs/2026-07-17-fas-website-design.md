@@ -71,3 +71,16 @@ Playful-but-credible collective. System font stack; one `--accent` custom proper
 ## Resume notes (if session breaks)
 
 Task board in-session mirrors this spec. State to check: does repo exist on GitHub? does github.io URL serve? CF zone status? Email Routing status? Pages custom-domain + cert state? Pick up at the first failing check.
+
+## Redesign addendum — "The Club Edition" (2026-07-17, same day)
+
+Eric: site read as bland/AI-made; brief sharpened mid-review to **quality, exclusivity, value**.
+Research: Panic (texture/chunky type), Puzzmo (editorial-handmade), Standard Ebooks (book
+typography), Poolsuite (committed bit). Four directions mocked (docs/design-mockups/, git-ignored;
+also pushed to Claude Design project "Fun Art Society - Site Redesign"). Eric chose **Club Edition
+always**: ink #14110d + copper #c98545/#eab676 + paper #efe6d4, Fraunces display serif (Google
+Fonts), society seal, "By appointment to the easily delighted", numbered studios with room names
+(The Press ... The Crayon Box), hand-drawn per-brand SVG marks in luminous accents, hairline-inset
+cards, double-rule masthead + colophon footer. Single deliberate theme (no prefers-color-scheme
+variance). Emoji glyphs retired from brand identity. gen_brands.py now ALSO injects the index card
+grid between studios:start/end markers so index and data cannot drift.
