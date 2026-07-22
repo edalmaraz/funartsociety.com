@@ -1,0 +1,241 @@
+{
+  "pixelforge": {
+    "store": "pixelforge7.gumroad.com",
+    "products": [
+      {
+        "slug": "neon-dusk-complete-space-station-kit",
+        "name": "Neon Dusk — Complete Space Station Kit",
+        "price": "$24.99",
+        "url": "https://pixelforge7.gumroad.com/l/wzcmfx",
+        "blurb": "7 packs · 292 assets: sci-fi tiles, 30 characters, enemy sprites, status icons, UI, gems & FX. One palette. CC0.",
+        "image": "assets/products/pixelforge/neon-dusk-complete-space-station-kit.jpg",
+        "w": 1005,
+        "h": 565
+      },
+      {
+        "slug": "neon-dusk-complete-platformer-kit",
+        "name": "Neon Dusk — Complete Platformer Kit",
+        "price": "$17.99",
+        "url": "https://pixelforge7.gumroad.com/l/fhlsu",
+        "blurb": "7 packs · 427 assets: platformer tiles, animated heroes, enemies, loot, UI, FX & pixel font. Five sizes. CC0.",
+        "image": "assets/products/pixelforge/neon-dusk-complete-platformer-kit.jpg",
+        "w": 1005,
+        "h": 565
+      },
+      {
+        "slug": "neon-dusk-complete-adventure-rpg-kit",
+        "name": "Neon Dusk — Complete Adventure RPG Kit",
+        "price": "$15.99",
+        "url": "https://pixelforge7.gumroad.com/l/dhzwow",
+        "blurb": "Seven complete Neon Dusk packs — overworld tiles, 30 characters, loot, weapons, UI, and FX. Full top-down adventure RPG kit. CC0.",
+        "image": "assets/products/pixelforge/neon-dusk-complete-adventure-rpg-kit.jpg",
+        "w": 1005,
+        "h": 565
+      },
+      {
+        "slug": "neon-dusk-complete-dungeon-crawler-kit",
+        "name": "Neon Dusk — Complete Dungeon Crawler Kit",
+        "price": "$24.99",
+        "url": "https://pixelforge7.gumroad.com/l/alyzpx",
+        "blurb": "Seven complete Neon Dusk packs — dungeon tiles, props, animated hero & enemies, loot, weapons, UI, and FX. Drop-in dungeon crawler kit. CC0.",
+        "image": "assets/products/pixelforge/neon-dusk-complete-dungeon-crawler-kit.jpg",
+        "w": 1005,
+        "h": 565
+      },
+      {
+        "slug": "neon-dusk-treasure-chests-containers-vol-1",
+        "name": "Neon Dusk: Treasure, Chests & Containers Vol.1",
+        "price": "$5.99",
+        "url": "https://pixelforge7.gumroad.com/l/wznlc",
+        "blurb": "50 animated frames — 10 containers (chests, barrels, crates, pots & urns) with open/break animations. Five sizes: 16–256px. CC0.",
+        "image": "assets/products/pixelforge/neon-dusk-treasure-chests-containers-vol-1.jpg",
+        "w": 1005,
+        "h": 565
+      }
+    ]
+  },
+  "coppergate": {
+    "store": "coppergate.gumroad.com",
+    "products": [
+      {
+        "slug": "complete-sherlock-holmes",
+        "name": "The Complete Sherlock Holmes",
+        "price": "$7.99",
+        "url": "https://coppergate.gumroad.com/l/vzlzvc",
+        "blurb": "All 9 Sherlock Holmes books in one beautifully formatted EPUB - 4 novels and 5 story collections.",
+        "image": "assets/products/coppergate/complete-sherlock-holmes.jpg",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "sphinx": {
+    "store": "grinningsphinx.gumroad.com",
+    "products": [
+      {
+        "slug": "human-body-wordsearch",
+        "name": "Human Body Word Search",
+        "price": "$5.99",
+        "url": "https://grinningsphinx.gumroad.com/l/ayxmso",
+        "blurb": "20 word search puzzles organized into 7 body-system chapters (skeletal, muscular, circulatory, nervous & senses, respiratory, digestive & excretory, immune/skin/endocrine), 15x15 grids.",
+        "image": "assets/products/sphinx/human-body-wordsearch.jpg",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "gridledger": {
+    "store": "gridandledgerstore.gumroad.com",
+    "products": [
+      {
+        "slug": "focus-productivity-bundle",
+        "name": "Focus Productivity Bundle — 4 Undated Printables in One",
+        "price": "$14.99",
+        "url": "https://gridandledgerstore.gumroad.com/l/nscfqq",
+        "blurb": "All four Grid & Ledger core planners in one 116-page print-ready PDF: Daily Focus Planner, Weekly Focus Planner, Monthly Habit Tracker, and Monthly Budget Planner. Undated, US Letter, print at home.",
+        "image": "assets/products/gridledger/focus-productivity-bundle.jpg",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "slug": "a4-daily-weekly-duo",
+        "name": "A4 Daily & Weekly Duo — Undated Printable Planner Set",
+        "price": "$6.99",
+        "url": "https://gridandledgerstore.gumroad.com/l/qktxsr",
+        "blurb": "Undated daily + weekly planner combo, sized for A4 — the first Grid & Ledger set built for the international paper standard instead of US Letter.",
+        "image": "assets/products/gridledger/a4-daily-weekly-duo.jpg",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "slug": "fitness-workout-log",
+        "name": "Fitness & Workout Log — 12-Week Undated Training Journal",
+        "price": "$5.99",
+        "url": "https://gridandledgerstore.gumroad.com/l/mxnlh",
+        "blurb": "Undated 12-week workout log, US Letter, 100 pages — a daily sets/reps/weight grid with warmup, cardio, RPE and mobility tracking, 12 weekly summaries…",
+        "image": "assets/products/gridledger/fitness-workout-log.jpg",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "slug": "project-goal-planner-90day",
+        "name": "Project & Goal Planner — 90-Day Quarterly System",
+        "price": "$6.99",
+        "url": "https://gridandledgerstore.gumroad.com/l/hevyjl",
+        "blurb": "Undated 90-day goal planner, US Letter, 16 pages — one Main Goal broken into 3 Key Results, mapped across a 13-week Quarter Map, then worked one Weekly Action Grid at a time.",
+        "image": "assets/products/gridledger/project-goal-planner-90day.jpg",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "slug": "weekly-meal-planner-grocery",
+        "name": "Weekly Meal Planner & Grocery List — Undated Printable, 52 Weeks",
+        "price": "$6.99",
+        "url": "https://gridandledgerstore.gumroad.com/l/yyojj",
+        "blurb": "Undated weekly meal planner, US Letter, 52 two-page spreads — a 7-day x 4-meal planning grid on the left, a categorized tear-out grocery checklist on the right.",
+        "image": "assets/products/gridledger/weekly-meal-planner-grocery.jpg",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "slug": "daily-focus-planner",
+        "name": "Daily Focus Planner — Undated Printable, 31 Days",
+        "price": "$5.99",
+        "url": "https://gridandledgerstore.gumroad.com/l/elxmh",
+        "blurb": "Undated daily planner, US Letter, 35 pages — 31 daily pages plus 4 Weekly Review pages.",
+        "image": "assets/products/gridledger/daily-focus-planner.jpg",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "slug": "monthly-habit-tracker",
+        "name": "Monthly Habit Tracker — Undated Printable, 12 Months",
+        "price": "$4.99",
+        "url": "https://gridandledgerstore.gumroad.com/l/rcvltb",
+        "blurb": "Undated habit tracker, US Letter, 12 pages — one month per page. 12 habit rows against day-of-month columns, plus a monthly reflection prompt. Print at home, start any month.",
+        "image": "assets/products/gridledger/monthly-habit-tracker.jpg",
+        "w": 1200,
+        "h": 1200
+      }
+    ]
+  },
+  "glyphvault": {
+    "store": "glyphvault.gumroad.com",
+    "products": [
+      {
+        "slug": "essential-ui-icons",
+        "name": "Essential UI Icons - 40 Clean Line Icons (SVG + PNG)",
+        "price": "$2.99",
+        "url": "https://glyphvault.gumroad.com/l/jpwvpo",
+        "blurb": "Forty consistent 24px line icons - arrows, chevrons, controls, status, and everyday interface glyphs - as restyleable SVGs with PNG previews and a contact sheet.",
+        "image": "assets/products/glyphvault/essential-ui-icons.jpg",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "templateworks": {
+    "store": "templateworksstore.gumroad.com",
+    "products": [
+      {
+        "slug": "monthly-budget-tracker",
+        "name": "Monthly Budget Tracker",
+        "price": "$5.99",
+        "url": "https://templateworksstore.gumroad.com/l/zowvz",
+        "blurb": "A real .xlsx budget workbook with Income, Expense (budgeted vs.",
+        "image": "assets/products/templateworks/monthly-budget-tracker.jpg",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "motifmill": {
+    "store": "motifmill.gumroad.com",
+    "products": []
+  },
+  "blipwave": {
+    "store": "blipwaveaudio.gumroad.com",
+    "products": [
+      {
+        "slug": "neon-runner",
+        "name": "Neon Runner — Chase & Boss Loop + SFX",
+        "price": "$7.99",
+        "url": "https://blipwaveaudio.gumroad.com/l/ovmrtr",
+        "blurb": "High-energy chase and boss chiptune loops at 150 BPM, plus laser, jump, and explosion SFX — built for fast-paced runner and action games.",
+        "image": "assets/products/blipwave/neon-runner.jpg",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "fieldguide": {
+    "store": "fieldguidepressstore.gumroad.com",
+    "products": [
+      {
+        "slug": "houseplant-care-basics",
+        "name": "The Practical Houseplant Handbook: Watering, Light, Soil, and Troubleshooting",
+        "price": "$4.99",
+        "url": "https://fieldguidepressstore.gumroad.com/l/izued",
+        "blurb": "Houseplant care by the specific problem, not generic tips: the finger test for watering, the shadow test for light, and how to tell root rot, spider mites, mealybugs…",
+        "image": "assets/products/fieldguide/houseplant-care-basics.jpg",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "crookedcrayon": {
+    "store": "crookedcrayon.gumroad.com",
+    "products": [
+      {
+        "slug": "emotionally-load-bearing",
+        "name": "Emotionally Load-Bearing — Hand-Lettered Crayon Print",
+        "price": "$3.99",
+        "url": "https://crookedcrayon.gumroad.com/l/vemznc",
+        "blurb": "Chunky hand-lettered crayon caption for the person who holds everything together: 15x18in / 300dpi transparent print PNG, plus a tee mockup and a 1:1 texture detail crop.",
+        "image": "assets/products/crookedcrayon/emotionally-load-bearing.jpg",
+        "w": 1200,
+        "h": 1440
+      }
+    ]
+  }
+}

@@ -138,6 +138,31 @@ def main() -> int:
     else:
         errors.append("brands.json missing")
 
+    # data/products.json <-> product pages cross-check
+    products_file = ROOT / "data" / "products.json"
+    if products_file.exists():
+        data = json.loads(products_file.read_text(encoding="utf-8"))
+        listed = set()
+        any_products = False
+        for key, co in data.items():
+            for p in co.get("products", []):
+                any_products = True
+                listed.add((key, p["slug"]))
+                if not (ROOT / "products" / key / p["slug"] / "index.html").exists():
+                    errors.append(f"data/products.json: no generated page for "
+                                  f"'{key}/{p['slug']}'")
+                if not (ROOT / p["image"]).exists():
+                    errors.append(f"data/products.json: missing image '{p['image']}'")
+        if any_products and not (ROOT / "products" / "index.html").exists():
+            errors.append("products/index.html missing (catalogue not generated)")
+        pdir = ROOT / "products"
+        if pdir.exists():
+            for page in pdir.glob("*/*/index.html"):
+                pair = (page.parent.parent.name, page.parent.name)
+                if pair not in listed:
+                    errors.append(f"products/{pair[0]}/{pair[1]}/: page has no "
+                                  "data/products.json entry")
+
     # forbidden strings
     for f in deployable_files():
         low = f.read_text(encoding="utf-8", errors="replace").lower()

@@ -159,4 +159,66 @@ footer .label { letter-spacing: 0.14em; }
 footer a { color: var(--mut); }
 footer a:hover { color: var(--copper-hi); }
 
+/* product counters, product pages, catalogue (stamped by gen_products.py) */
+.pgrid {
+  display: grid; gap: 1.1rem;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  padding: 0; margin: 1.15rem 0 1rem; list-style: none;
+}
+.pcard {
+  border: 1px solid var(--hair);
+  background: linear-gradient(160deg, var(--panel-2), var(--ink));
+  display: flex; flex-direction: column;
+}
+.pcard:hover { border-color: var(--copper); }
+.pcard .pimg { display: block; }
+.pcard .pimg img {
+  display: block; width: 100%; height: auto;
+  aspect-ratio: 3 / 2; object-fit: cover;
+  border-bottom: 1px solid var(--hair);
+}
+.pcard .pbody { padding: 0.85rem 0.95rem 0.95rem; display: flex; flex-direction: column; gap: 0.3rem; flex: 1; }
+.pcard .pname { font-family: var(--serif); font-weight: 600; font-size: 1.02rem; line-height: 1.3; margin: 0; }
+.pcard .pname a { color: var(--paper); text-decoration: none; }
+.pcard .pname a:hover, .pcard .pname a:focus-visible { color: var(--copper-hi); }
+.pcard .pprice { font-family: var(--serif); font-style: italic; color: var(--a, var(--copper-hi)); }
+.pcard .plinks { margin-top: auto; padding-top: 0.55rem; display: flex; gap: 1.1rem; }
+.pcard .plinks .enter { margin-top: 0; }
+
+.crumbs { margin: 1.6rem 0 0; color: var(--mut); letter-spacing: 0.18em; }
+.crumbs a { color: var(--mut); text-decoration: none; }
+.crumbs a:hover, .crumbs a:focus-visible { color: var(--copper-hi); }
+.product-hero { padding: 0.9rem; margin-top: 1.1rem; }
+.product-hero img { display: block; margin: 0 auto; max-width: 100%; max-height: 30rem; width: auto; height: auto; }
+.product-body { text-align: center; padding: 1.6rem 0 0.4rem; }
+.product-body .no { font-family: var(--serif); font-style: italic; color: var(--copper); }
+.product-body h1 {
+  font-size: clamp(1.7rem, 4.4vw, 2.6rem);
+  margin: 0.35rem auto 0.2rem; max-width: 26ch;
+}
+.pprice-lg { font-family: var(--serif); font-style: italic; font-size: 1.35rem; color: var(--a, var(--copper-hi)); margin: 0.2rem 0 0; }
+.pblurb { max-width: 52ch; margin: 0.9rem auto 0; color: var(--mut); }
+.buy {
+  display: inline-block; margin-top: 1.4rem;
+  background: var(--copper); color: var(--ink);
+  font-family: var(--label); font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase;
+  text-decoration: none; padding: 0.85rem 1.6rem;
+  border: 1px solid var(--copper-hi);
+}
+.buy:hover, .buy:focus-visible { background: var(--copper-hi); color: var(--ink); }
+.pmore { margin-top: 1.5rem; }
+
+.panel h2 a { color: inherit; text-decoration: none; }
+.panel h2 a:hover, .panel h2 a:focus-visible { color: var(--copper-hi); }
+.cat-list { list-style: none; padding: 0; margin: 0.6rem 0 0; }
+.cat-list li {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 1rem;
+  padding: 0.55rem 0; border-top: 1px solid var(--hair);
+}
+.cat-list li:first-child { border-top: 0; }
+.cat-list .cat-name a { color: var(--paper); text-decoration: none; font-family: var(--serif); }
+.cat-list .cat-name a:hover, .cat-list .cat-name a:focus-visible { color: var(--copper-hi); }
+.cat-list .cat-price { font-family: var(--serif); font-style: italic; color: var(--a, var(--copper-hi)); }
+.cat-list .cat-buy { margin-left: auto; margin-top: 0; }
+
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
