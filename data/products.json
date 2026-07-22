@@ -381,7 +381,18 @@
   },
   "motifmill": {
     "store": "motifmill.gumroad.com",
-    "products": []
+    "products": [
+      {
+        "slug": "aurora-noise",
+        "name": "Graded Fields - 12 Verified-Seamless fBm Textures (256-1536px)",
+        "price": "$4.99",
+        "url": "https://motifmill.gumroad.com/l/dubxty",
+        "blurb": "Every tile in this pack is seamless by mathematical construction, not by hand-touching: the engine builds each pattern from integer-cycle Fourier components…",
+        "image": "assets/products/motifmill/aurora-noise.jpg",
+        "w": 1005,
+        "h": 1005
+      }
+    ]
   },
   "blipwave": {
     "store": "blipwaveaudio.gumroad.com",
