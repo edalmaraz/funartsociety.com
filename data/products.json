@@ -250,7 +250,7 @@
       {
         "slug": "complete-sherlock-holmes",
         "name": "The Complete Sherlock Holmes",
-        "price": "$7.99",
+        "price": "$4.99",
         "url": "https://coppergate.gumroad.com/l/vzlzvc",
         "blurb": "All 9 Sherlock Holmes books in one beautifully formatted EPUB - 4 novels and 5 story collections.",
         "image": "assets/products/coppergate/complete-sherlock-holmes.jpg",
@@ -265,7 +265,7 @@
       {
         "slug": "human-body-wordsearch",
         "name": "Human Body Word Search",
-        "price": "$5.99",
+        "price": "$3.99",
         "url": "https://grinningsphinx.gumroad.com/l/ayxmso",
         "blurb": "20 word search puzzles organized into 7 body-system chapters (skeletal, muscular, circulatory, nervous & senses, respiratory, digestive & excretory, immune/skin/endocrine), 15x15 grids.",
         "image": "assets/products/sphinx/human-body-wordsearch.jpg",
@@ -280,7 +280,7 @@
       {
         "slug": "a4-daily-weekly-duo",
         "name": "A4 Daily & Weekly Duo — Undated Printable Planner Set",
-        "price": "$6.99",
+        "price": "$4.99",
         "url": "https://gridandledgerstore.gumroad.com/l/qktxsr",
         "blurb": "Undated daily + weekly planner combo, sized for A4 — the first Grid & Ledger set built for the international paper standard instead of US Letter.",
         "image": "assets/products/gridledger/a4-daily-weekly-duo.jpg",
@@ -290,7 +290,7 @@
       {
         "slug": "daily-focus-planner",
         "name": "Daily Focus Planner — Undated Printable, 31 Days",
-        "price": "$5.99",
+        "price": "$4.99",
         "url": "https://gridandledgerstore.gumroad.com/l/elxmh",
         "blurb": "Undated daily planner, US Letter, 35 pages — 31 daily pages plus 4 Weekly Review pages.",
         "image": "assets/products/gridledger/daily-focus-planner.jpg",
@@ -300,7 +300,7 @@
       {
         "slug": "fitness-workout-log",
         "name": "Fitness & Workout Log — 12-Week Undated Training Journal",
-        "price": "$5.99",
+        "price": "$4.99",
         "url": "https://gridandledgerstore.gumroad.com/l/mxnlh",
         "blurb": "Undated 12-week workout log, US Letter, 100 pages — a daily sets/reps/weight grid with warmup, cardio, RPE and mobility tracking, 12 weekly summaries…",
         "image": "assets/products/gridledger/fitness-workout-log.jpg",
@@ -310,7 +310,7 @@
       {
         "slug": "focus-productivity-bundle",
         "name": "Focus Productivity Bundle — 4 Undated Printables in One",
-        "price": "$14.99",
+        "price": "$4.99",
         "url": "https://gridandledgerstore.gumroad.com/l/nscfqq",
         "blurb": "All four Grid & Ledger core planners in one 116-page print-ready PDF: Daily Focus Planner, Weekly Focus Planner, Monthly Habit Tracker, and Monthly Budget Planner. Undated, US Letter, print at home.",
         "image": "assets/products/gridledger/focus-productivity-bundle.jpg",
@@ -330,7 +330,7 @@
       {
         "slug": "project-goal-planner-90day",
         "name": "Project & Goal Planner — 90-Day Quarterly System",
-        "price": "$6.99",
+        "price": "$4.99",
         "url": "https://gridandledgerstore.gumroad.com/l/hevyjl",
         "blurb": "Undated 90-day goal planner, US Letter, 16 pages — one Main Goal broken into 3 Key Results, mapped across a 13-week Quarter Map, then worked one Weekly Action Grid at a time.",
         "image": "assets/products/gridledger/project-goal-planner-90day.jpg",
@@ -340,7 +340,7 @@
       {
         "slug": "weekly-meal-planner-grocery",
         "name": "Weekly Meal Planner & Grocery List — Undated Printable, 52 Weeks",
-        "price": "$6.99",
+        "price": "$4.99",
         "url": "https://gridandledgerstore.gumroad.com/l/yyojj",
         "blurb": "Undated weekly meal planner, US Letter, 52 two-page spreads — a 7-day x 4-meal planning grid on the left, a categorized tear-out grocery checklist on the right.",
         "image": "assets/products/gridledger/weekly-meal-planner-grocery.jpg",
@@ -370,7 +370,7 @@
       {
         "slug": "monthly-budget-tracker",
         "name": "Monthly Budget Tracker",
-        "price": "$5.99",
+        "price": "$3.99",
         "url": "https://templateworksstore.gumroad.com/l/zowvz",
         "blurb": "A real .xlsx budget workbook with Income, Expense (budgeted vs.",
         "image": "assets/products/templateworks/monthly-budget-tracker.jpg",
@@ -388,13 +388,13 @@
     "products": [
       {
         "slug": "neon-runner",
-        "name": "Neon Runner — Chase & Boss Loop + SFX",
-        "price": "$7.99",
+        "name": "Neon Runner — Chase & Boss Chiptune Pack (9 Loops + 16 SFX)",
+        "price": "$4.99",
         "url": "https://blipwaveaudio.gumroad.com/l/ovmrtr",
-        "blurb": "High-energy chase and boss chiptune loops at 150 BPM, plus laser, jump, and explosion SFX — built for fast-paced runner and action games.",
+        "blurb": "Nine A-minor chiptune loops in one intensity ladder plus sixteen one-shot SFX — 25 WAV files covering a runner's states from menu to boss.",
         "image": "assets/products/blipwave/neon-runner.jpg",
         "w": 1005,
-        "h": 565
+        "h": 1608
       }
     ]
   },
@@ -404,7 +404,7 @@
       {
         "slug": "houseplant-care-basics",
         "name": "The Practical Houseplant Handbook: Watering, Light, Soil, and Troubleshooting",
-        "price": "$4.99",
+        "price": "$3.99",
         "url": "https://fieldguidepressstore.gumroad.com/l/izued",
         "blurb": "Houseplant care by the specific problem, not generic tips: the finger test for watering, the shadow test for light, and how to tell root rot, spider mites, mealybugs…",
         "image": "assets/products/fieldguide/houseplant-care-basics.jpg",
